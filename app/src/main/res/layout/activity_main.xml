@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackgroundBlue">
+
+    <TextView
+        android:id="@+id/tv_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_tv_height"
+        style="@style/TextviewsStyle"/>
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_height"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/string_et_meters"/>
+
+    <TextView
+        android:id="@+id/tv_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_height"
+        android:text="@string/string_tv_weight"
+        style="@style/TextviewsStyle"/>
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_weight"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/string_et_kilograms"
+        />
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_weight"
+        android:layout_centerHorizontal="true"
+        android:text="@string/string_btn_calculate"/>
+
+    <TextView
+        android:id="@+id/tv_resultNumeric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_calculate"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="0.0"
+        style="@style/TextviewResult"/>
+
+    <TextView
+        android:id="@+id/tv_resultString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_below="@id/tv_resultNumeric"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        style="@style/TextviewResult"
+        />
+
+    <ImageView
+        android:id="@+id/iv_weight"
+        android:layout_width="150dp"
+        android:layout_height="290dp"
+        android:src="@mipmap/normalweight"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_ResultStringDescription"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/tv_resultString"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="Sample text"
+        style="@style/TextviewResultDescription"/>
+
+
+
+</RelativeLayout>
