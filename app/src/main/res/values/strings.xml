@@ -5,4 +5,7 @@
     <string name="string_tv_weight">Enter your weight in kilograms:</string>
     <string name="string_et_kilograms">kilograms</string>
     <string name="string_btn_calculate">Calculate</string>
+    <string name="string_empty_fields_text">Please fill all fields</string>
+    <string name="string_invalid_height_text">Please enter valid height</string>
+    <string name="string_invalid_weight_text">Please enter valid weight</string>
 </resources>

@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_height"
         android:layout_centerHorizontal="true"
-        android:hint="@string/string_et_meters"/>
+        android:hint="@string/string_et_meters"
+        style="@style/EditTextStyle"/>
 
     <TextView
         android:id="@+id/tv_weight"
@@ -35,6 +36,7 @@
         android:layout_below="@id/tv_weight"
         android:layout_centerHorizontal="true"
         android:hint="@string/string_et_kilograms"
+        style="@style/EditTextStyle"
         />
     <Button
         android:id="@+id/btn_calculate"
@@ -53,25 +55,22 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:text="0.0"
-        style="@style/TextviewResult"/>
+        style="@style/TextviewResultStyle"/>
 
     <TextView
         android:id="@+id/tv_resultString"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Result"
         android:layout_below="@id/tv_resultNumeric"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:layout_alignParentRight="true"
-        style="@style/TextviewResult"
-        />
+        style="@style/TextviewResultStyle" />
 
     <ImageView
         android:id="@+id/iv_weight"
         android:layout_width="150dp"
         android:layout_height="290dp"
-        android:src="@mipmap/normalweight"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="10dp"
         android:layout_marginBottom="10dp"/>
@@ -84,8 +83,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:layout_alignParentRight="true"
-        android:text="Sample text"
-        style="@style/TextviewResultDescription"/>
+        style="@style/TextviewResultDescriptionStyle"/>
 
 
 

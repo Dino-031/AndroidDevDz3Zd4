@@ -15,14 +15,19 @@
         <item name="android:layout_marginLeft">10dp</item>
     </style>
 
-    <style name="TextviewResult">
+    <style name="TextviewResultStyle">
         <item name="android:textSize">25sp</item>
         <item name="android:textColor">@color/colorTextWhite</item>
     </style>
 
-    <style name="TextviewResultDescription">
+    <style name="TextviewResultDescriptionStyle">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:textAlignment">textEnd</item>
     </style>
 
+    <style name="EditTextStyle">
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
 </resources>
